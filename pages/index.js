@@ -11,7 +11,7 @@ import {
 } from "../sections";
 
 const Home = () => (
-  <div className="bg-primary-black overflow-hidden">
+  <div style={{ background: "#1A232E", overflow: "hidden" }}>
     <Navbar />
     <Hero />
     <div className="relative">
